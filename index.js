@@ -167,7 +167,7 @@ function updatingEmployee() {
                     }
                     return lastName;
                 },
-                message: "Employee's last name",
+                message: "Employees last name",
             },
             {
                 name: "role",
@@ -177,7 +177,7 @@ function updatingEmployee() {
             },
         ]).then(function(val) {
             var roleId = selectRole().indexOf(val.role) + 1
-            connection.query("UPDATE employee SET ? WHERE ?", {
+            connection.query("UPDATE employee SETS and WHERE ?", {
                 last_name: val.lastName,
                 role: roleId,
             }, function() {
@@ -224,7 +224,7 @@ function addingDepartment() {
     inquirer.prompt([{
         name: "name",
         type: "input",
-        message: "Whci Department do you want to add?"
+        message: "Which Department do you want to add?"
     }]).then(function(res) {
         var query = connection.query(
             "INSERT INTO department SET ? ", {
