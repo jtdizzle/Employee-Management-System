@@ -34,7 +34,7 @@
   ## License
   MIT License
 
-  https://choosealicense.com/licenses/mit/
+ [![license](https://img.shields.io/badge/license-MITLicense-blue)](https://shields.io)
 
 
   ---
@@ -45,7 +45,7 @@
   
 
   ## Questions
-  Github Profile: www.github.com/jtdizzle
+  Github Profile: www.github.com/jtdizzle  
   Email: jtdizzle747@yahoo.com
 
  
@@ -56,7 +56,7 @@
 
   Jonathan Taylor
 
-  [Github Repo](https://github.com/jtdizzle/Employee-Tracker "Github Repo")
+  [Github Repo](https://github.com/jtdizzle/Employee-Tracker "Github Repo")  
   
 
   [Video Walkthrough](https://watch.screencastify.com/v/iaIlaiPR2Urp71jnfrmv "Video walkthrough");
